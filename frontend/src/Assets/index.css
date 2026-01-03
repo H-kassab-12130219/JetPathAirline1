@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwindcss/tailwind.css";
+
+body {
+  background-color: #212220;
+}
+
+select {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  visibility: hidden;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+.nav {
+  background-color: #af5441;
+  position: absolute;
+  top: 0;
+}
+
+.navdiv {
+  visibility: hidden;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select option:checked {
+  color: black;
+  /* Change this to the desired background color */
+}
+
+::selection {
+  background-color: transparent; /* Change this to your desired color */
+  color: #fff; /* Change this to your desired text color */
+}
